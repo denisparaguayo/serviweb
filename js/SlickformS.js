@@ -94,18 +94,18 @@ $(document).ready(function () {
     //CHECKING USERS NAME IS PRESENT
 
     //CHECKING THE USER IS HUMAN
-    if (usershuman.val() != 15) {
-      $(".slickbutton")
-        .animate({ marginTop: "50px" }, 1000)
-        .delay(6000)
-        .animate({ marginTop: "0px" }, 1000);
-      $(".errorcontainer").html(
-        "¡Las matemáticas de ¿Eres humano? son incorrectas!"
-      );
-      $(".errorcontainer").delay(1200).fadeIn(1000).delay(4000).fadeOut(1000);
-      $("input[type=submit]", $("#slickform")).removeAttr("disabled");
-      return false;
-    }
+    // if (usershuman.val() != 15) {
+    //   $(".slickbutton")
+    //     .animate({ marginTop: "50px" }, 1000)
+    //     .delay(6000)
+    //     .animate({ marginTop: "0px" }, 1000);
+    //   $(".errorcontainer").html(
+    //     "¡Las matemáticas de ¿Eres humano? son incorrectas!"
+    //   );
+    //   $(".errorcontainer").delay(1200).fadeIn(1000).delay(4000).fadeOut(1000);
+    //   $("input[type=submit]", $("#slickform")).removeAttr("disabled");
+    //   return false;
+    // }
     //CHECKING THE USER IS HUMAN
 
     //CHECKING THE USER IS HUMAN
