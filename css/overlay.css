@@ -164,7 +164,7 @@ anima {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: var(--naranjaRgb);
+  background: var(--naranja);
   padding: 10px;
   text-align: center;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
